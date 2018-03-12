@@ -58,3 +58,88 @@ img {
   /* v-a, zorgt ervoor dat de images altijd boven gealigneerd zijn als ze bv in ander element zitten*/
   vertical-align: top;
 }
+
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+
+*/
+
+h1 {
+  /*  We voegen hier alles op grid van 8px of meervoud */
+  font-family: "Times New Roman", serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0 0 48px;
+}
+
+h2 {
+  font-style: 23px;
+  line-height: 32px;
+  margin: 0 0 24px
+}
+
+h3 {
+  font-style: 18px;
+  line-height: 24px;
+  margin: 0 0 24px
+}
+
+h4, h5, h6 {
+  /* selectors dezelfde stijl geven met comma */
+  font-style: 16px;
+  line-height: 24px;
+  margin: 0 0 24px
+}
+
+p, ol, ul, dl, table, address, figure {
+  margin: 0 0 24px/* standaard margin veelgebruikte elementen, ook fg even breed als tekst*/
+}
+
+ul, ol {
+  padding-left: 24px
+}
+
+li ul, li ol {
+  /*  alle <ul> en <ol> die in een <li> zitten mogen geen marginbottom
+hebben. */
+  margin-bottom: 0;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: "Times New Roman", serif;
+}
+
+blockquote * {
+  /*alless wat in blockquote nemen font-size en lH overerven*/
+  font-size: inherit;
+  line-height: inherit;
+}
+
+figcaption {
+  /* Dit zorgt er voor dat dit element iets kleiner staat en genoeg ruimte heeft tussen de image
+en de tekst. */
+  font-style: 12px;
+  line-height: 16px;
+  padding-top: 8px;
+  color: grey;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: LightGrey;
+  margin: 0 0 24px;
+}
+
+a {}
+
+a:hover, a:focus {}
+
+a:visited, a:active {}
