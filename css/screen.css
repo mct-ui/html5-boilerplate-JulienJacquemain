@@ -36,6 +36,7 @@ html {
   color: white;
   /*c*/
   text-shadow: none;
+  /* sommige browsers hebben default text shadow
   /*tsn*/
 }
 
@@ -43,4 +44,17 @@ html {
   background: #E85E00;
   color: white;
   text-shadow: none;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+  /*  M-W: elke image wordt nooit breder dan 100%*/
+  max-width: 100%;
+  /* v-a, zorgt ervoor dat de images altijd boven gealigneerd zijn als ze bv in ander element zitten*/
+  vertical-align: top;
 }
