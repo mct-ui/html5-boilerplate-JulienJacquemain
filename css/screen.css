@@ -188,6 +188,11 @@ a:hover, a:focus {
   html {
     padding: 48px 48px 24px
   }
+  body {
+    /* zorgt ervoor dat boddy maxim 42 em krijgt */
+    max-width: 42em;
+    margin: 0 auto;
+  }
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
