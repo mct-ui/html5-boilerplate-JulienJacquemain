@@ -22,6 +22,9 @@ html {
   /* 24px 24px 0 px;*/
   padding: 24px 24px 0;
   /* om tekst meer te centreren*/
+  /* font smoothing, om dikke tekst te vermijden */
+  -webkit-font-smoothing: antialiased;
+  -moz-os-font-smoothing: grayscale;
 }
 
 /*
