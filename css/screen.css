@@ -1,6 +1,8 @@
 body {
   /*background: khaki;*/
   /* bg color van de body*/
+  max-width: 42em;
+  margin: 0 auto;
 }
 
 /* basic elementen stijlen met element selectors*/
