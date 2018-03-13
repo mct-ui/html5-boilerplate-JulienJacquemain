@@ -25,6 +25,11 @@ html {
   /* font smoothing, om dikke tekst te vermijden */
   -webkit-font-smoothing: antialiased;
   -moz-os-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /*
